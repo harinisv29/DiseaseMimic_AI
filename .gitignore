@@ -1,0 +1,38 @@
+.runtime/
+.packages/
+__pycache__/
+.pytest_cache/
+*.part
+data/raw/
+data/processed/
+models/*.pt
+
+# Dashboard generated dependencies and runtime files
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/*.log
+frontend/*.pid
+frontend/.env.local
+frontend/tsconfig.tsbuildinfo
+
+# Local CUDA dependencies, environments, and private configuration
+.cuda-packages/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local backups and generated artifacts
+rollback-backups/
+clinician-upgrade-backup/
+test-results/
+*.log
+*.pid
+*.tsbuildinfo
+*.pt
+*.pth
+*.onnx
+*.zip

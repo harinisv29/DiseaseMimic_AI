@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "processed_sha256": {
+    "diseases.csv": "f086f16a7eca45482db437c1cd63f360616bd77fbafc32f7559dd8358ff9efe1",
+    "disease_cross_references.csv": "7202f676dd7ea4b0705fb7aef65d97b516beef845be5835b92f87759ee21ae29",
+    "disease_phenotype.csv": "5fb1a79305f122843b134e668dd37bcb68655de396429de42b4a496c6baf1d58",
+    "hypergraph_data.pt": "39ff566cac93d971de0e2dd7f445a0a399f3b801c29197226d81e549f0fe4032",
+    "ontology_terms.csv": "ed4f25a5c0a64bb1a0f75376396042072a45192918eea873de3e977c4b84010b",
+    "phenotypes.csv": "161f3518e72d2e221a6c4b502f141ad49ceabb07282b19ce11d0ebca637d3029",
+    "source_annotations.csv": "d952069ebe80c7c351cfb8b6569f3ee84d7a2bf28dcf0fbc8eeab2ea5c82ae04",
+    "unmatched_phenotypes.csv": "0f24af5d7ab07e613b3ad1e19b4f36bd03e09503ca21eefdba98a35bbe0d8484"
+  },
+  "checks": [
+    "raw sizes and SHA256",
+    "processed SHA256",
+    "valid foreign keys",
+    "states and provenance",
+    "deduplication",
+    "identity-group split isolation",
+    "exact full and training incidence reconstruction"
+  ],
+  "diseases": 10680,
+  "phenotypes": 19894,
+  "associations": 266413
+}

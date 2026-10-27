@@ -1,0 +1,31 @@
+{
+  "original_checkpoints": [
+    {
+      "path": "models\\hgnn_ebm.pt",
+      "epochs": 5,
+      "hidden": 48,
+      "state_tensors": 9
+    },
+    {
+      "path": "runs\\final-gpu-training\\best_model.pt",
+      "epochs": 36,
+      "hidden": 48,
+      "state_tensors": 9
+    },
+    {
+      "path": "runs\\final-gpu-training\\last_model.pt",
+      "epochs": 51,
+      "hidden": 48,
+      "state_tensors": 9
+    }
+  ],
+  "heldout_diseases_checked": 2169,
+  "heldout_disease_nodes_with_training_degree": 0,
+  "source_diseases": 10680,
+  "source_phenotypes": 19894,
+  "all_candidate_reference_rows": 10680,
+  "train_hyperedges": 8502,
+  "model_disease_id_parameters": 0,
+  "checkpoint_mapping_matches": true,
+  "selected_checkpoint_cuda_parameters": true
+}

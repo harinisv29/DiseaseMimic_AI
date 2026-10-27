@@ -1,0 +1,10 @@
+{
+  "hgnn_ebm_minus_raw_ebm_mrr": {
+    "mean": 0.0013340781442821026,
+    "ci95": [
+      -0.006024430505931377,
+      0.008723904378712177
+    ]
+  },
+  "interpretation": "A CI spanning zero does not establish incremental benefit of hypergraph propagation. Hybrid improvement over matching does not by itself attribute that improvement to HGNN."
+}

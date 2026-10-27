@@ -1,0 +1,47 @@
+{
+  "considered": 200,
+  "eligible_target_in_top20_with_available_annotation": 174,
+  "replicates_per_case": 32,
+  "policies": {
+    "information_gain": {
+      "queries": 174,
+      "mean_entropy_reduction_nats": 0.08435695618391037,
+      "mean_effective_candidate_reduction": 0.5303874611854553,
+      "mean_true_target_posterior_change": 0.026324305683374405
+    },
+    "random": {
+      "queries": 174,
+      "mean_entropy_reduction_nats": 0.048283591866493225,
+      "mean_effective_candidate_reduction": 0.34320011734962463,
+      "mean_true_target_posterior_change": 0.015165514312684536
+    },
+    "frequency": {
+      "queries": 174,
+      "mean_entropy_reduction_nats": 0.05641573294997215,
+      "mean_effective_candidate_reduction": 0.3771882653236389,
+      "mean_true_target_posterior_change": 0.015855563804507256
+    }
+  },
+  "paired_entropy_improvement": {
+    "random": {
+      "paired_mean_entropy_gain": 0.03607336804270744,
+      "ci95": [
+        0.028065277263522148,
+        0.04620238021016121
+      ]
+    },
+    "frequency": {
+      "paired_mean_entropy_gain": 0.02794121950864792,
+      "ci95": [
+        0.018896376714110374,
+        0.037513893097639084
+      ]
+    }
+  },
+  "limitations": [
+    "Conditional on target in top20; oracle availability uses remaining explicitly annotated target terms for all policies.",
+    "Binary outcomes simulated from source frequency or documented .75 positive/.01 absent assumptions.",
+    "Unrecorded candidate phenotype pairs use .5 unknown, never absent; synthetic uncertainty model may be miscalibrated.",
+    "Entropy reduction is model-based and does not establish clinical usefulness."
+  ]
+}

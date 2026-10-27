@@ -1,0 +1,109 @@
+{
+  "datasets": [
+    {
+      "name": "HPO ontology",
+      "source_url": "https://purl.obolibrary.org/obo/hp.obo",
+      "local_path": "C:\\Users\\Admin\\.vscode\\DiseaseMimic-AI\\data\\raw\\hpo\\hp.obo",
+      "license": "HPO terms: acknowledge/cite Consortium, display source date/version, preserve original files and ontology relationships; https://hpo.jax.org/license",
+      "access": "Public download; no authentication",
+      "status": "downloaded",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/7100cdc5-8b17-4986-98b7-4b4d90427c09",
+      "last_modified": "Wed, 02 Sep 2026 20:59:18 GMT",
+      "etag": "\"0x8DF09350DFA7286\"",
+      "downloaded_at": "2026-10-26T10:39:18.536186+00:00",
+      "size_bytes": 10863613,
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+      "source_version": "hp/releases/2026-09-01",
+      "record_counts": {
+        "diseases": 0,
+        "phenotypes": 19894,
+        "associations": 0
+      }
+    },
+    {
+      "name": "HPO annotations",
+      "source_url": "https://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+      "local_path": "C:\\Users\\Admin\\.vscode\\DiseaseMimic-AI\\data\\raw\\hpo\\phenotype.hpoa",
+      "license": "HPO terms: acknowledge/cite Consortium, display source date/version, preserve original files and ontology relationships; https://hpo.jax.org/license",
+      "access": "Public download; no authentication",
+      "status": "downloaded",
+      "resolved_url": "https://release-assets.githubusercontent.com/github-production-release-asset/41063438/30a413da-5d1f-4476-b219-03dc6507f153",
+      "last_modified": "Wed, 02 Sep 2026 21:12:10 GMT",
+      "etag": "\"0x8DF0936DA47C46B\"",
+      "downloaded_at": "2026-10-26T10:39:54.307275+00:00",
+      "size_bytes": 35816037,
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "source_version": {
+        "description": "\"HPO annotations for rare diseases [8478: OMIM; 47: DECIPHER; 4357 ORPHANET]\"",
+        "version": "2026-09-02",
+        "tracker": "https://github.com/obophenotype/human-phenotype-ontology/issues",
+        "hpo-version": "http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.json"
+      },
+      "record_counts": {
+        "diseases": 12880,
+        "phenotypes": 11658,
+        "associations": 286620
+      }
+    },
+    {
+      "name": "Orphadata phenotypes",
+      "source_url": "https://www.orphadata.com/data/xml/en_product4.xml",
+      "local_path": "C:\\Users\\Admin\\.vscode\\DiseaseMimic-AI\\data\\raw\\orphadata\\en_product4.xml",
+      "license": "CC BY 4.0; attribution and indicate modifications",
+      "access": "Public download; no authentication",
+      "status": "downloaded",
+      "resolved_url": "https://www.orphadata.com/data/xml/en_product4.xml",
+      "last_modified": "Mon, 29 Jun 2026 12:07:59 GMT",
+      "etag": "W/\"2dacb6d-655634f3105c0-gzip\"",
+      "downloaded_at": "2026-10-26T10:40:15.837573+00:00",
+      "size_bytes": 47893357,
+      "sha256": "4f44e8a61201399911aa1ba44a293c0ccaa5ce11272c47d40862255cb72f6b32",
+      "source_version": {
+        "date": "2026-06-23 07:57:18",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2026",
+        "dbserver": "jdbc:sybase:Tds:canard.orpha.net:2020"
+      },
+      "record_counts": {
+        "diseases": 4355,
+        "phenotypes": 8726,
+        "associations": 116661
+      }
+    },
+    {
+      "name": "Orphadata alignments",
+      "source_url": "https://www.orphadata.com/data/xml/en_product1.xml",
+      "local_path": "C:\\Users\\Admin\\.vscode\\DiseaseMimic-AI\\data\\raw\\orphadata\\en_product1.xml",
+      "license": "CC BY 4.0; attribution and indicate modifications",
+      "access": "Public download; no authentication",
+      "status": "downloaded",
+      "resolved_url": "https://www.orphadata.com/data/xml/en_product1.xml",
+      "last_modified": "Mon, 29 Jun 2026 12:20:47 GMT",
+      "etag": "W/\"338622f-655637cf7c5c0-gzip\"",
+      "downloaded_at": "2026-10-26T10:40:35.906403+00:00",
+      "size_bytes": 54026799,
+      "sha256": "df8d562a0c6011af36a74eb4000ce81ca7d723e8031010819fb71727c0962bbb",
+      "source_version": {
+        "date": "2026-06-23 07:53:50",
+        "version": "1.3.42 / 4.1.8 [2025-03-03]",
+        "copyright": "Orphanet (c) 2026",
+        "dbserver": "jdbc:sybase:Tds:canard.orpha.net:2020"
+      },
+      "record_counts": {
+        "diseases": 11645,
+        "phenotypes": 0,
+        "associations": 52456
+      }
+    }
+  ],
+  "processed_sha256": {
+    "diseases.csv": "f086f16a7eca45482db437c1cd63f360616bd77fbafc32f7559dd8358ff9efe1",
+    "disease_cross_references.csv": "7202f676dd7ea4b0705fb7aef65d97b516beef845be5835b92f87759ee21ae29",
+    "disease_phenotype.csv": "5fb1a79305f122843b134e668dd37bcb68655de396429de42b4a496c6baf1d58",
+    "hypergraph_data.pt": "39ff566cac93d971de0e2dd7f445a0a399f3b801c29197226d81e549f0fe4032",
+    "ontology_terms.csv": "ed4f25a5c0a64bb1a0f75376396042072a45192918eea873de3e977c4b84010b",
+    "phenotypes.csv": "161f3518e72d2e221a6c4b502f141ad49ceabb07282b19ce11d0ebca637d3029",
+    "source_annotations.csv": "d952069ebe80c7c351cfb8b6569f3ee84d7a2bf28dcf0fbc8eeab2ea5c82ae04",
+    "unmatched_phenotypes.csv": "0f24af5d7ab07e613b3ad1e19b4f36bd03e09503ca21eefdba98a35bbe0d8484"
+  }
+}

@@ -1,0 +1,6640 @@
+{
+  "recordedAt": "2026-10-26T18:09:28.266592+00:00",
+  "health": {
+    "status": "ready",
+    "device": "cuda:0",
+    "method": "hybrid",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "scenarios": [
+    {
+      "synthetic": true,
+      "scenario": "neuro",
+      "title": "Neurological symptoms",
+      "request": {
+        "present": [
+          "HP:0001324",
+          "HP:0001288",
+          "HP:0001251",
+          "HP:0003552",
+          "HP:0001337"
+        ],
+        "absent": [],
+        "unknown": [],
+        "limit": 20
+      },
+      "response": {
+        "method": "hybrid",
+        "device": "cuda:0",
+        "rankings": [
+          {
+            "disease_id": "ORPHA:572798",
+            "score": 0.8269652128219604,
+            "best_tied_rank": 1,
+            "worst_tied_rank": 1
+          },
+          {
+            "disease_id": "ORPHA:2289",
+            "score": 0.8213046789169312,
+            "best_tied_rank": 2,
+            "worst_tied_rank": 2
+          },
+          {
+            "disease_id": "ORPHA:715623",
+            "score": 0.8194777965545654,
+            "best_tied_rank": 3,
+            "worst_tied_rank": 3
+          },
+          {
+            "disease_id": "ORPHA:96",
+            "score": 0.8171179890632629,
+            "best_tied_rank": 4,
+            "worst_tied_rank": 4
+          },
+          {
+            "disease_id": "ORPHA:812",
+            "score": 0.8167237639427185,
+            "best_tied_rank": 5,
+            "worst_tied_rank": 5
+          },
+          {
+            "disease_id": "OMIM:621525",
+            "score": 0.8161150813102722,
+            "best_tied_rank": 6,
+            "worst_tied_rank": 6
+          },
+          {
+            "disease_id": "ORPHA:1168",
+            "score": 0.8155837059020996,
+            "best_tied_rank": 7,
+            "worst_tied_rank": 7
+          },
+          {
+            "disease_id": "ORPHA:167",
+            "score": 0.8155658841133118,
+            "best_tied_rank": 8,
+            "worst_tied_rank": 8
+          },
+          {
+            "disease_id": "ORPHA:289560",
+            "score": 0.8155206441879272,
+            "best_tied_rank": 9,
+            "worst_tied_rank": 9
+          },
+          {
+            "disease_id": "ORPHA:502423",
+            "score": 0.8114632964134216,
+            "best_tied_rank": 10,
+            "worst_tied_rank": 10
+          },
+          {
+            "disease_id": "ORPHA:512",
+            "score": 0.8106731176376343,
+            "best_tied_rank": 11,
+            "worst_tied_rank": 11
+          },
+          {
+            "disease_id": "ORPHA:99027",
+            "score": 0.8098563551902771,
+            "best_tied_rank": 12,
+            "worst_tied_rank": 12
+          },
+          {
+            "disease_id": "ORPHA:101078",
+            "score": 0.8080645203590393,
+            "best_tied_rank": 13,
+            "worst_tied_rank": 13
+          },
+          {
+            "disease_id": "ORPHA:478",
+            "score": 0.8064060211181641,
+            "best_tied_rank": 14,
+            "worst_tied_rank": 14
+          },
+          {
+            "disease_id": "OMIM:216400",
+            "score": 0.8041337132453918,
+            "best_tied_rank": 15,
+            "worst_tied_rank": 15
+          },
+          {
+            "disease_id": "ORPHA:137898",
+            "score": 0.8023770451545715,
+            "best_tied_rank": 16,
+            "worst_tied_rank": 16
+          },
+          {
+            "disease_id": "ORPHA:99014",
+            "score": 0.8016314506530762,
+            "best_tied_rank": 17,
+            "worst_tied_rank": 17
+          },
+          {
+            "disease_id": "ORPHA:58",
+            "score": 0.7972165942192078,
+            "best_tied_rank": 18,
+            "worst_tied_rank": 18
+          },
+          {
+            "disease_id": "OMIM:164310",
+            "score": 0.7969232201576233,
+            "best_tied_rank": 19,
+            "worst_tied_rank": 19
+          },
+          {
+            "disease_id": "ORPHA:280620",
+            "score": 0.6379469037055969,
+            "best_tied_rank": 20,
+            "worst_tied_rank": 20
+          }
+        ],
+        "next_observations": [
+          {
+            "phenotype_id": "HP:0001260",
+            "expected_information_gain_nats": 0.19942998886108398,
+            "predictive_present_probability": 0.6082510948181152,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0001250",
+            "expected_information_gain_nats": 0.16025489568710327,
+            "predictive_present_probability": 0.47044068574905396,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0000407",
+            "expected_information_gain_nats": 0.15694797039031982,
+            "predictive_present_probability": 0.5199811458587646,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0009830",
+            "expected_information_gain_nats": 0.13534724712371826,
+            "predictive_present_probability": 0.5472108721733093,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0001249",
+            "expected_information_gain_nats": 0.12008112668991089,
+            "predictive_present_probability": 0.5477059483528137,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          }
+        ],
+        "observations": {
+          "present": [
+            "HP:0001251",
+            "HP:0001288",
+            "HP:0001324",
+            "HP:0001337",
+            "HP:0003552"
+          ],
+          "absent": [],
+          "unknown": []
+        },
+        "note": "Exploratory known-profile research ranking; score is not probability. Unrecorded phenotypes remain unknown. Rankings use present observations; known absent states exclude completed observations from recommendations, while unknown states remain eligible for reassessment."
+      },
+      "leading_reference_profiles": [
+        {
+          "id": "ORPHA:572798",
+          "label": "WARS2-related combined oxidative phosphorylation defect",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000007",
+              "label": "Autosomal recessive inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000218",
+              "label": "High palate",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000219",
+              "label": "Thin upper lip vermilion",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000316",
+              "label": "Hypertelorism",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000343",
+              "label": "Long philtrum",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000369",
+              "label": "Low-set ears",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000431",
+              "label": "Wide nasal bridge",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000486",
+              "label": "Strabismus",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000510",
+              "label": "Rod-cone dystrophy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "HP:0040284",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000577",
+              "label": "Exotropia",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000646",
+              "label": "Amblyopia",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000648",
+              "label": "Optic atrophy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000718",
+              "label": "Aggressive behavior",
+              "state": "present",
+              "frequencies": [
+                "2/2",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001249",
+              "label": "Intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "3/3",
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282",
+                "HP:0040284"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "2/2",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [
+                "3/3",
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001272",
+              "label": "Cerebellar atrophy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001276",
+              "label": "Hypertonia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001288",
+              "label": "Gait disturbance",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001310",
+              "label": "Dysmetria",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001320",
+              "label": "Cerebellar vermis hypoplasia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "2/2",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001332",
+              "label": "Dystonia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001337",
+              "label": "Tremor",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001344",
+              "label": "Absent speech",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001347",
+              "label": "Hyperreflexia",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001511",
+              "label": "Intrauterine growth retardation",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001638",
+              "label": "Cardiomyopathy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "HP:0040284",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001873",
+              "label": "Thrombocytopenia",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001943",
+              "label": "Hypoglycemia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001998",
+              "label": "Neonatal hypoglycemia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001999",
+              "label": "Abnormal facial shape",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002015",
+              "label": "Dysphagia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002059",
+              "label": "Cerebral atrophy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002119",
+              "label": "Ventriculomegaly",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002151",
+              "label": "Increased circulating lactate concentration",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002167",
+              "label": "Abnormal speech pattern",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002187",
+              "label": "Profound intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002188",
+              "label": "Delayed CNS myelination",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002198",
+              "label": "Dilated fourth ventricle",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002305",
+              "label": "Athetosis",
+              "state": "present",
+              "frequencies": [
+                "2/2",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002342",
+              "label": "Moderate intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002352",
+              "label": "Leukoencephalopathy",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002365",
+              "label": "Hypoplasia of the brainstem",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002421",
+              "label": "Poor head control",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002451",
+              "label": "Limb dystonia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002506",
+              "label": "Diffuse cerebral atrophy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002509",
+              "label": "Limb hypertonia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002510",
+              "label": "Spastic tetraplegia",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002518",
+              "label": "Abnormal periventricular white matter morphology",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003128",
+              "label": "Lactic acidosis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003202",
+              "label": "Skeletal muscle atrophy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003593",
+              "label": "Infantile onset",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003698",
+              "label": "Difficulty standing",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003700",
+              "label": "Generalized amyotrophy",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005656",
+              "label": "Positional foot deformity",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0006956",
+              "label": "Lateral ventricle dilatation",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007772",
+              "label": "Impaired smooth pursuit",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008936",
+              "label": "Axial hypotonia",
+              "state": "present",
+              "frequencies": [
+                "11/11",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008947",
+              "label": "Floppy infant",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011968",
+              "label": "Feeding difficulties",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0012379",
+              "label": "Abnormal circulating enzyme concentration or activity",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012430",
+              "label": "Cerebral white matter hypoplasia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012448",
+              "label": "Delayed myelination",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012704",
+              "label": "Widened subarachnoid space",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0025162",
+              "label": "Severe temper tantrums",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0031165",
+              "label": "Multifocal seizures",
+              "state": "present",
+              "frequencies": [
+                "1/1",
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100022",
+              "label": "Abnormality of movement",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORPHA:2289",
+          "label": "Neuronal intranuclear inclusion disease",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000006",
+              "label": "Autosomal dominant inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000020",
+              "label": "Urinary incontinence",
+              "state": "present",
+              "frequencies": [
+                "22/52"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000600",
+              "label": "Abnormality of the pharynx",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000602",
+              "label": "Ophthalmoplegia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000616",
+              "label": "Miosis",
+              "state": "present",
+              "frequencies": [
+                "24/39"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000648",
+              "label": "Optic atrophy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000708",
+              "label": "Atypical behavior",
+              "state": "present",
+              "frequencies": [
+                "12/56",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000726",
+              "label": "Dementia",
+              "state": "present",
+              "frequencies": [
+                "45/57",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "6/57",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "20/56",
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [
+                "2/57",
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001265",
+              "label": "Hyporeflexia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001276",
+              "label": "Hypertonia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001279",
+              "label": "Syncope",
+              "state": "present",
+              "frequencies": [
+                "3/57"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001288",
+              "label": "Gait disturbance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "28/56"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001337",
+              "label": "Tremor",
+              "state": "present",
+              "frequencies": [
+                "12/57"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001347",
+              "label": "Hyperreflexia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002063",
+              "label": "Rigidity",
+              "state": "present",
+              "frequencies": [
+                "10/56"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002119",
+              "label": "Ventriculomegaly",
+              "state": "present",
+              "frequencies": [
+                "47/51"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002167",
+              "label": "Abnormal speech pattern",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002352",
+              "label": "Leukoencephalopathy",
+              "state": "present",
+              "frequencies": [
+                "47/51"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002353",
+              "label": "EEG abnormality",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002572",
+              "label": "Episodic vomiting",
+              "state": "present",
+              "frequencies": [
+                "12/57"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002650",
+              "label": "Scoliosis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002922",
+              "label": "Increased CSF protein concentration",
+              "state": "present",
+              "frequencies": [
+                "23/39"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003298",
+              "label": "Spina bifida occulta",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003312",
+              "label": "Abnormal vertebral body morphology",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003403",
+              "label": "EMG: decremental response of compound muscle action potential to repetitive nerve stimulation",
+              "state": "present",
+              "frequencies": [
+                "11/42"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003431",
+              "label": "Decreased motor nerve conduction velocity",
+              "state": "present",
+              "frequencies": [
+                "40/43"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003448",
+              "label": "Decreased sensory nerve conduction velocity",
+              "state": "present",
+              "frequencies": [
+                "33/43"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003457",
+              "label": "EMG abnormality",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003474",
+              "label": "Somatic sensory dysfunction",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0007185",
+              "label": "Loss of consciousness",
+              "state": "present",
+              "frequencies": [
+                "20/57"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0012229",
+              "label": "CSF pleocytosis",
+              "state": "present",
+              "frequencies": [
+                "5/39"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0020068",
+              "label": "Intranuclear inclusion bodies",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0100022",
+              "label": "Abnormality of movement",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100543",
+              "label": "Cognitive impairment",
+              "state": "present",
+              "frequencies": [
+                "18/41"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORPHA:715623",
+          "label": "Motor incoordination-myopathy-respiratory insufficiency-progressive cerebellar atrophy syndrome",
+          "sources": [
+            "HPO"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000007",
+              "label": "Autosomal recessive inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000252",
+              "label": "Microcephaly",
+              "state": "present",
+              "frequencies": [
+                "3/7"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000365",
+              "label": "Hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "2/5"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000407",
+              "label": "Sensorineural hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000486",
+              "label": "Strabismus",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000518",
+              "label": "Cataract",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000545",
+              "label": "Myopia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [
+                "1/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000651",
+              "label": "Diplopia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000709",
+              "label": "Psychosis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000750",
+              "label": "Delayed speech and language development",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000763",
+              "label": "Sensory neuropathy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000771",
+              "label": "Gynecomastia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000821",
+              "label": "Hypothyroidism",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000822",
+              "label": "Hypertension",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000938",
+              "label": "Osteopenia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000961",
+              "label": "Cyanosis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001152",
+              "label": "Saccadic smooth pursuit interruptions",
+              "state": "present",
+              "frequencies": [
+                "1/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "0/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "2/7"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001252",
+              "label": "Hypotonia",
+              "state": "present",
+              "frequencies": [
+                "5/8"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [
+                "5/5"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001269",
+              "label": "Hemiparesis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001272",
+              "label": "Cerebellar atrophy",
+              "state": "present",
+              "frequencies": [
+                "4/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001288",
+              "label": "Gait disturbance",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001290",
+              "label": "Generalized hypotonia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001298",
+              "label": "Encephalopathy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001310",
+              "label": "Dysmetria",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001332",
+              "label": "Dystonia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001337",
+              "label": "Tremor",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001363",
+              "label": "Craniosynostosis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001399",
+              "label": "Hepatic failure",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001508",
+              "label": "Failure to thrive",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001511",
+              "label": "Intrauterine growth retardation",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001513",
+              "label": "Obesity",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001629",
+              "label": "Ventricular septal defect",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001635",
+              "label": "Congestive heart failure",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001638",
+              "label": "Cardiomyopathy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001649",
+              "label": "Tachycardia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001761",
+              "label": "Pes cavus",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001762",
+              "label": "Talipes equinovarus",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001840",
+              "label": "Metatarsus adductus",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001943",
+              "label": "Hypoglycemia",
+              "state": "present",
+              "frequencies": [
+                "0/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002013",
+              "label": "Vomiting",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002015",
+              "label": "Dysphagia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002059",
+              "label": "Cerebral atrophy",
+              "state": "present",
+              "frequencies": [
+                "2/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002073",
+              "label": "Progressive cerebellar ataxia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002080",
+              "label": "Intention tremor",
+              "state": "present",
+              "frequencies": [
+                "1/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002091",
+              "label": "Restrictive ventilatory defect",
+              "state": "present",
+              "frequencies": [
+                "3/6"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002094",
+              "label": "Dyspnea",
+              "state": "present",
+              "frequencies": [
+                "2/6"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002133",
+              "label": "Status epilepticus",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002194",
+              "label": "Delayed gross motor development",
+              "state": "present",
+              "frequencies": [
+                "5/8"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002311",
+              "label": "Incoordination",
+              "state": "present",
+              "frequencies": [
+                "2/3"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002321",
+              "label": "Vertigo",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002359",
+              "label": "Frequent falls",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002375",
+              "label": "Hypokinesia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002527",
+              "label": "Falls",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002650",
+              "label": "Scoliosis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002747",
+              "label": "Respiratory insufficiency due to muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "6/8"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002791",
+              "label": "Hypoventilation",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002835",
+              "label": "Aspiration",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002870",
+              "label": "Obstructive sleep apnea",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002979",
+              "label": "Bowing of the legs",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003128",
+              "label": "Lactic acidosis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003155",
+              "label": "Elevated circulating alkaline phosphatase concentration",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003198",
+              "label": "Myopathy",
+              "state": "present",
+              "frequencies": [
+                "8/8"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003202",
+              "label": "Skeletal muscle atrophy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003236",
+              "label": "Elevated circulating creatine kinase activity",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003355",
+              "label": "Aminoaciduria",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003487",
+              "label": "Babinski sign",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003557",
+              "label": "Increased variability in muscle fiber diameter",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003593",
+              "label": "Infantile onset",
+              "state": "present",
+              "frequencies": [
+                "3/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003623",
+              "label": "Neonatal onset",
+              "state": "present",
+              "frequencies": [
+                "3/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003690",
+              "label": "Limb muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003691",
+              "label": "Scapular winging",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003737",
+              "label": "Mitochondrial myopathy",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003798",
+              "label": "Nemaline bodies",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003803",
+              "label": "Type 1 muscle fiber predominance",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0004322",
+              "label": "Short stature",
+              "state": "present",
+              "frequencies": [
+                "5/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0004325",
+              "label": "Decreased body weight",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0004326",
+              "label": "Cachexia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0005484",
+              "label": "Secondary microcephaly",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0006543",
+              "label": "Cardiorespiratory arrest",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0007015",
+              "label": "Poor gross motor coordination",
+              "state": "present",
+              "frequencies": [
+                "6/7"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0007359",
+              "label": "Focal-onset seizure",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0007598",
+              "label": "Bilateral single transverse palmar creases",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0008619",
+              "label": "Bilateral sensorineural hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "3/3"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0009113",
+              "label": "Diaphragmatic weakness",
+              "state": "present",
+              "frequencies": [
+                "5/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0009830",
+              "label": "Peripheral neuropathy",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010522",
+              "label": "Dyslexia",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010665",
+              "label": "Bilateral coxa valga",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011227",
+              "label": "Elevated circulating C-reactive protein concentration",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011463",
+              "label": "Childhood onset",
+              "state": "present",
+              "frequencies": [
+                "2/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011950",
+              "label": "Unusual bronchiolitis",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0012764",
+              "label": "Orthopnea",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0025336",
+              "label": "Delayed ability to sit",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0025379",
+              "label": "Anti-thyroid peroxidase antibody positivity",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0025710",
+              "label": "Late young adult onset",
+              "state": "present",
+              "frequencies": [
+                "1/9"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0030051",
+              "label": "Tip-toe gait",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0031273",
+              "label": "Shock",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0032988",
+              "label": "Persistent head lag",
+              "state": "present",
+              "frequencies": [
+                "2/2"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0033454",
+              "label": "Tube feeding",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0034045",
+              "label": "Angulated muscle fibers",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0040081",
+              "label": "Abnormal circulating creatine kinase activity",
+              "state": "present",
+              "frequencies": [
+                "0/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0100297",
+              "label": "Increased endomysial connective tissue",
+              "state": "present",
+              "frequencies": [
+                "1/1"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "scenario": "developmental",
+      "title": "Developmental phenotypes",
+      "request": {
+        "present": [
+          "HP:0001263",
+          "HP:0001252",
+          "HP:0001250",
+          "HP:0000252",
+          "HP:0001249"
+        ],
+        "absent": [],
+        "unknown": [],
+        "limit": 20
+      },
+      "response": {
+        "method": "hybrid",
+        "device": "cuda:0",
+        "rankings": [
+          {
+            "disease_id": "OMIM:619228",
+            "score": 1.0441808700561523,
+            "best_tied_rank": 1,
+            "worst_tied_rank": 1
+          },
+          {
+            "disease_id": "OMIM:618004",
+            "score": 1.0399328470230103,
+            "best_tied_rank": 2,
+            "worst_tied_rank": 2
+          },
+          {
+            "disease_id": "ORPHA:96173",
+            "score": 1.034860372543335,
+            "best_tied_rank": 3,
+            "worst_tied_rank": 3
+          },
+          {
+            "disease_id": "ORPHA:726677",
+            "score": 1.0342609882354736,
+            "best_tied_rank": 4,
+            "worst_tied_rank": 4
+          },
+          {
+            "disease_id": "OMIM:619876",
+            "score": 1.0333203077316284,
+            "best_tied_rank": 5,
+            "worst_tied_rank": 5
+          },
+          {
+            "disease_id": "ORPHA:500159",
+            "score": 1.033239722251892,
+            "best_tied_rank": 6,
+            "worst_tied_rank": 6
+          },
+          {
+            "disease_id": "OMIM:620098",
+            "score": 1.0323413610458374,
+            "best_tied_rank": 7,
+            "worst_tied_rank": 7
+          },
+          {
+            "disease_id": "OMIM:620820",
+            "score": 1.0316702127456665,
+            "best_tied_rank": 8,
+            "worst_tied_rank": 8
+          },
+          {
+            "disease_id": "OMIM:608097",
+            "score": 1.0297555923461914,
+            "best_tied_rank": 9,
+            "worst_tied_rank": 9
+          },
+          {
+            "disease_id": "OMIM:617799",
+            "score": 1.0295050144195557,
+            "best_tied_rank": 10,
+            "worst_tied_rank": 10
+          },
+          {
+            "disease_id": "OMIM:620445",
+            "score": 1.0289607048034668,
+            "best_tied_rank": 11,
+            "worst_tied_rank": 11
+          },
+          {
+            "disease_id": "OMIM:619243",
+            "score": 1.0285388231277466,
+            "best_tied_rank": 12,
+            "worst_tied_rank": 12
+          },
+          {
+            "disease_id": "ORPHA:438178",
+            "score": 1.0278719663619995,
+            "best_tied_rank": 13,
+            "worst_tied_rank": 13
+          },
+          {
+            "disease_id": "OMIM:619188",
+            "score": 1.0273269414901733,
+            "best_tied_rank": 14,
+            "worst_tied_rank": 14
+          },
+          {
+            "disease_id": "ORPHA:26",
+            "score": 1.027194619178772,
+            "best_tied_rank": 15,
+            "worst_tied_rank": 15
+          },
+          {
+            "disease_id": "OMIM:615716",
+            "score": 1.0270988941192627,
+            "best_tied_rank": 16,
+            "worst_tied_rank": 16
+          },
+          {
+            "disease_id": "ORPHA:662234",
+            "score": 1.027031421661377,
+            "best_tied_rank": 17,
+            "worst_tied_rank": 17
+          },
+          {
+            "disease_id": "ORPHA:1711",
+            "score": 1.026776671409607,
+            "best_tied_rank": 18,
+            "worst_tied_rank": 18
+          },
+          {
+            "disease_id": "ORPHA:698090",
+            "score": 1.0257304906845093,
+            "best_tied_rank": 19,
+            "worst_tied_rank": 19
+          },
+          {
+            "disease_id": "ORPHA:1442",
+            "score": 1.0255255699157715,
+            "best_tied_rank": 20,
+            "worst_tied_rank": 20
+          }
+        ],
+        "next_observations": [
+          {
+            "phenotype_id": "HP:0000750",
+            "expected_information_gain_nats": 0.14587008953094482,
+            "predictive_present_probability": 0.6066267490386963,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0000316",
+            "expected_information_gain_nats": 0.12273627519607544,
+            "predictive_present_probability": 0.44655197858810425,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0000431",
+            "expected_information_gain_nats": 0.09377533197402954,
+            "predictive_present_probability": 0.501682460308075,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0000369",
+            "expected_information_gain_nats": 0.08787119388580322,
+            "predictive_present_probability": 0.35028567910194397,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0001344",
+            "expected_information_gain_nats": 0.07745981216430664,
+            "predictive_present_probability": 0.5179675817489624,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          }
+        ],
+        "observations": {
+          "present": [
+            "HP:0000252",
+            "HP:0001249",
+            "HP:0001250",
+            "HP:0001252",
+            "HP:0001263"
+          ],
+          "absent": [],
+          "unknown": []
+        },
+        "note": "Exploratory known-profile research ranking; score is not probability. Unrecorded phenotypes remain unknown. Rankings use present observations; known absent states exclude completed observations from recommendations, while unknown states remain eligible for reassessment."
+      },
+      "leading_reference_profiles": [
+        {
+          "id": "OMIM:619228",
+          "label": "Developmental delay with dysmorphic facies and dental anomalies",
+          "sources": [
+            "HPO"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000006",
+              "label": "Autosomal dominant inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000252",
+              "label": "Microcephaly",
+              "state": "present",
+              "frequencies": [
+                "7/31"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000708",
+              "label": "Atypical behavior",
+              "state": "present",
+              "frequencies": [
+                "24/34"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000750",
+              "label": "Delayed speech and language development",
+              "state": "present",
+              "frequencies": [
+                "32/36"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001249",
+              "label": "Intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "28/31"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "22/36"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "6/27"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001252",
+              "label": "Hypotonia",
+              "state": "present",
+              "frequencies": [
+                "28/37"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001257",
+              "label": "Spasticity",
+              "state": "present",
+              "frequencies": [
+                "10/36"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [
+                "6/20"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [
+                "35/36"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001270",
+              "label": "Motor delay",
+              "state": "present",
+              "frequencies": [
+                "34/37"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002353",
+              "label": "EEG abnormality",
+              "state": "present",
+              "frequencies": [
+                "19/24"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002360",
+              "label": "Sleep disturbance",
+              "state": "present",
+              "frequencies": [
+                "12/29"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002376",
+              "label": "Developmental regression",
+              "state": "present",
+              "frequencies": [
+                "6/35"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "OMIM:618004",
+          "label": "Epileptic encephalopathy, early infantile, 64",
+          "sources": [
+            "HPO"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000006",
+              "label": "Autosomal dominant inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000179",
+              "label": "Thick lower lip vermilion",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000219",
+              "label": "Thin upper lip vermilion",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000252",
+              "label": "Microcephaly",
+              "state": "present",
+              "frequencies": [
+                "6/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000268",
+              "label": "Dolichocephaly",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000286",
+              "label": "Epicanthus",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000294",
+              "label": "Low anterior hairline",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000319",
+              "label": "Smooth philtrum",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000343",
+              "label": "Long philtrum",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000347",
+              "label": "Micrognathia",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000400",
+              "label": "Macrotia",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000455",
+              "label": "Broad nasal tip",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000463",
+              "label": "Anteverted nares",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000490",
+              "label": "Deeply set eye",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000527",
+              "label": "Long eyelashes",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000574",
+              "label": "Thick eyebrow",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000687",
+              "label": "Widely spaced teeth",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000733",
+              "label": "Motor stereotypy",
+              "state": "present",
+              "frequencies": [
+                "3/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001249",
+              "label": "Intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "10/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "10/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001252",
+              "label": "Hypotonia",
+              "state": "present",
+              "frequencies": [
+                "9/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [
+                "10/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001269",
+              "label": "Hemiparesis",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001321",
+              "label": "Cerebellar hypoplasia",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001332",
+              "label": "Dystonia",
+              "state": "present",
+              "frequencies": [
+                "3/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001344",
+              "label": "Absent speech",
+              "state": "present",
+              "frequencies": [
+                "7/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002072",
+              "label": "Chorea",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002079",
+              "label": "Hypoplasia of the corpus callosum",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002119",
+              "label": "Ventriculomegaly",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002120",
+              "label": "Cerebral cortical atrophy",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002133",
+              "label": "Status epilepticus",
+              "state": "present",
+              "frequencies": [
+                "4/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002188",
+              "label": "Delayed CNS myelination",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002268",
+              "label": "Paroxysmal dystonia",
+              "state": "present",
+              "frequencies": [
+                "4/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002376",
+              "label": "Developmental regression",
+              "state": "present",
+              "frequencies": [
+                "5/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002509",
+              "label": "Limb hypertonia",
+              "state": "present",
+              "frequencies": [
+                "4/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002540",
+              "label": "Inability to walk",
+              "state": "present",
+              "frequencies": [
+                "5/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002553",
+              "label": "Highly arched eyebrow",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003593",
+              "label": "Infantile onset",
+              "state": "present",
+              "frequencies": [
+                "7/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003623",
+              "label": "Neonatal onset",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003763",
+              "label": "Bruxism",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0005280",
+              "label": "Depressed nasal bridge",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010763",
+              "label": "Low insertion of columella",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011463",
+              "label": "Childhood onset",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0045075",
+              "label": "Sparse eyebrow",
+              "state": "present",
+              "frequencies": [
+                "1/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0100716",
+              "label": "Self-injurious behavior",
+              "state": "present",
+              "frequencies": [
+                "2/10"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORPHA:96173",
+          "label": "Ring chromosome 9 syndrome",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000252",
+              "label": "Microcephaly",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000343",
+              "label": "Long philtrum",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000431",
+              "label": "Wide nasal bridge",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000574",
+              "label": "Thick eyebrow",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000750",
+              "label": "Delayed speech and language development",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001249",
+              "label": "Intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001252",
+              "label": "Hypotonia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001508",
+              "label": "Failure to thrive",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001510",
+              "label": "Growth delay",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002650",
+              "label": "Scoliosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007483",
+              "label": "Depigmentation/hyperpigmentation of skin",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008872",
+              "label": "Feeding difficulties in infancy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0010808",
+              "label": "Protruding tongue",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "scenario": "sensory",
+      "title": "Sensory and neurological findings",
+      "request": {
+        "present": [
+          "HP:0000365",
+          "HP:0000505",
+          "HP:0001251",
+          "HP:0009830",
+          "HP:0001324"
+        ],
+        "absent": [],
+        "unknown": [],
+        "limit": 20
+      },
+      "response": {
+        "method": "hybrid",
+        "device": "cuda:0",
+        "rankings": [
+          {
+            "disease_id": "ORPHA:1187",
+            "score": 1.0196921825408936,
+            "best_tied_rank": 1,
+            "worst_tied_rank": 1
+          },
+          {
+            "disease_id": "ORPHA:271861",
+            "score": 1.0112297534942627,
+            "best_tied_rank": 2,
+            "worst_tied_rank": 2
+          },
+          {
+            "disease_id": "ORPHA:397",
+            "score": 1.0102505683898926,
+            "best_tied_rank": 3,
+            "worst_tied_rank": 3
+          },
+          {
+            "disease_id": "OMIM:604377",
+            "score": 0.9998458623886108,
+            "best_tied_rank": 4,
+            "worst_tied_rank": 4
+          },
+          {
+            "disease_id": "ORPHA:487",
+            "score": 0.9958338737487793,
+            "best_tied_rank": 5,
+            "worst_tied_rank": 5
+          },
+          {
+            "disease_id": "OMIM:617988",
+            "score": 0.9955860376358032,
+            "best_tied_rank": 6,
+            "worst_tied_rank": 6
+          },
+          {
+            "disease_id": "ORPHA:512",
+            "score": 0.9790045022964478,
+            "best_tied_rank": 7,
+            "worst_tied_rank": 7
+          },
+          {
+            "disease_id": "ORPHA:1171",
+            "score": 0.8322149515151978,
+            "best_tied_rank": 8,
+            "worst_tied_rank": 8
+          },
+          {
+            "disease_id": "ORPHA:96",
+            "score": 0.8140599727630615,
+            "best_tied_rank": 9,
+            "worst_tied_rank": 9
+          },
+          {
+            "disease_id": "ORPHA:715623",
+            "score": 0.8135615587234497,
+            "best_tied_rank": 10,
+            "worst_tied_rank": 10
+          },
+          {
+            "disease_id": "ORPHA:702",
+            "score": 0.8134462833404541,
+            "best_tied_rank": 11,
+            "worst_tied_rank": 11
+          },
+          {
+            "disease_id": "OMIM:621525",
+            "score": 0.8128750920295715,
+            "best_tied_rank": 12,
+            "worst_tied_rank": 12
+          },
+          {
+            "disease_id": "ORPHA:254886",
+            "score": 0.8122451901435852,
+            "best_tied_rank": 13,
+            "worst_tied_rank": 13
+          },
+          {
+            "disease_id": "ORPHA:1933",
+            "score": 0.8097931146621704,
+            "best_tied_rank": 14,
+            "worst_tied_rank": 14
+          },
+          {
+            "disease_id": "ORPHA:2710",
+            "score": 0.8077174425125122,
+            "best_tied_rank": 15,
+            "worst_tied_rank": 15
+          },
+          {
+            "disease_id": "ORPHA:99014",
+            "score": 0.8059591054916382,
+            "best_tied_rank": 16,
+            "worst_tied_rank": 16
+          },
+          {
+            "disease_id": "ORPHA:93256",
+            "score": 0.8042172193527222,
+            "best_tied_rank": 17,
+            "worst_tied_rank": 17
+          },
+          {
+            "disease_id": "ORPHA:572550",
+            "score": 0.8040835857391357,
+            "best_tied_rank": 18,
+            "worst_tied_rank": 18
+          },
+          {
+            "disease_id": "ORPHA:95",
+            "score": 0.802452802658081,
+            "best_tied_rank": 19,
+            "worst_tied_rank": 19
+          },
+          {
+            "disease_id": "ORPHA:254892",
+            "score": 0.8003717064857483,
+            "best_tied_rank": 20,
+            "worst_tied_rank": 20
+          }
+        ],
+        "next_observations": [
+          {
+            "phenotype_id": "HP:0001337",
+            "expected_information_gain_nats": 0.2170255482196808,
+            "predictive_present_probability": 0.5127357244491577,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0000648",
+            "expected_information_gain_nats": 0.196144700050354,
+            "predictive_present_probability": 0.5724193453788757,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0001260",
+            "expected_information_gain_nats": 0.17513829469680786,
+            "predictive_present_probability": 0.5354843735694885,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0002376",
+            "expected_information_gain_nats": 0.14996927976608276,
+            "predictive_present_probability": 0.5120128393173218,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          },
+          {
+            "phenotype_id": "HP:0001265",
+            "expected_information_gain_nats": 0.1446053385734558,
+            "predictive_present_probability": 0.5930395126342773,
+            "reassessment": false,
+            "availability": "permitted",
+            "note": "Simulation model; unrecorded candidate annotations remain unknown"
+          }
+        ],
+        "observations": {
+          "present": [
+            "HP:0000365",
+            "HP:0000505",
+            "HP:0001251",
+            "HP:0001324",
+            "HP:0009830"
+          ],
+          "absent": [],
+          "unknown": []
+        },
+        "note": "Exploratory known-profile research ranking; score is not probability. Unrecorded phenotypes remain unknown. Rankings use present observations; known absent states exclude completed observations from recommendations, while unknown states remain eligible for reassessment."
+      },
+      "leading_reference_profiles": [
+        {
+          "id": "ORPHA:1187",
+          "label": "Lethal ataxia with deafness and optic atrophy",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000365",
+              "label": "Hearing impairment",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000467",
+              "label": "Neck muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000505",
+              "label": "Visual impairment",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000572",
+              "label": "Visual loss",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000618",
+              "label": "Blindness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000648",
+              "label": "Optic atrophy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001249",
+              "label": "Intellectual disability",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001256",
+              "label": "Mild intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001263",
+              "label": "Global developmental delay",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001270",
+              "label": "Motor delay",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001284",
+              "label": "Areflexia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001319",
+              "label": "Neonatal hypotonia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001344",
+              "label": "Absent speech",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001347",
+              "label": "Hyperreflexia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001419",
+              "label": "X-linked recessive inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001510",
+              "label": "Growth delay",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001522",
+              "label": "Death in infancy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002015",
+              "label": "Dysphagia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002300",
+              "label": "Mutism",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002307",
+              "label": "Drooling",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002342",
+              "label": "Moderate intellectual disability",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002445",
+              "label": "Tetraplegia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002719",
+              "label": "Recurrent infections",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002721",
+              "label": "Immunodeficiency",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002788",
+              "label": "Recurrent upper respiratory tract infections",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003323",
+              "label": "Progressive muscle weakness",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003431",
+              "label": "Decreased motor nerve conduction velocity",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003444",
+              "label": "EMG: chronic denervation signs",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003537",
+              "label": "Hypouricemia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0004887",
+              "label": "Respiratory failure requiring assisted ventilation",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007258",
+              "label": "Severe demyelination of the white matter",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007377",
+              "label": "Abnormality of somatosensory evoked potentials",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008311",
+              "label": "Spinal cord dorsal column hypomyelination",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008527",
+              "label": "Congenital sensorineural hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008936",
+              "label": "Axial hypotonia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0009830",
+              "label": "Peripheral neuropathy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011185",
+              "label": "EEG with focal epileptiform discharges",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011476",
+              "label": "Profound sensorineural hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012389",
+              "label": "Appendicular hypotonia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0030272",
+              "label": "Abnormal erythrocyte enzyme concentration or activity",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0032169",
+              "label": "Severe infection",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORPHA:271861",
+          "label": "Hereditary ATTR amyloidosis",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000006",
+              "label": "Autosomal dominant inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000016",
+              "label": "Urinary retention",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000020",
+              "label": "Urinary incontinence",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000083",
+              "label": "Renal insufficiency",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000100",
+              "label": "Nephrotic syndrome",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000112",
+              "label": "Nephropathy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000365",
+              "label": "Hearing impairment",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000407",
+              "label": "Sensorineural hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000501",
+              "label": "Glaucoma",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000505",
+              "label": "Visual impairment",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000508",
+              "label": "Ptosis",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000651",
+              "label": "Diplopia",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000666",
+              "label": "Horizontal nystagmus",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000726",
+              "label": "Dementia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000738",
+              "label": "Hallucinations",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000739",
+              "label": "Anxiety",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000802",
+              "label": "Impotence",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000970",
+              "label": "Anhidrosis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001097",
+              "label": "Keratoconjunctivitis sicca",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001250",
+              "label": "Seizure",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001257",
+              "label": "Spasticity",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001265",
+              "label": "Hyporeflexia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001269",
+              "label": "Hemiparesis",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001271",
+              "label": "Polyneuropathy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001289",
+              "label": "Confusion",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001337",
+              "label": "Tremor",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001347",
+              "label": "Hyperreflexia",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001635",
+              "label": "Congestive heart failure",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001638",
+              "label": "Cardiomyopathy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001640",
+              "label": "Cardiomegaly",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0001645",
+              "label": "Sudden cardiac death",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001650",
+              "label": "Aortic valve stenosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001712",
+              "label": "Left ventricular hypertrophy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001723",
+              "label": "Restrictive cardiomyopathy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001824",
+              "label": "Weight loss",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002014",
+              "label": "Diarrhea",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002017",
+              "label": "Nausea and vomiting",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002019",
+              "label": "Constipation",
+              "state": "present",
+              "frequencies": [
+                "2/4",
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002070",
+              "label": "Limb ataxia",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002078",
+              "label": "Truncal ataxia",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002080",
+              "label": "Intention tremor",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002313",
+              "label": "Spastic paraparesis",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002315",
+              "label": "Headache",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002401",
+              "label": "Stroke-like episode",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002403",
+              "label": "Positive Romberg sign",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002572",
+              "label": "Episodic vomiting",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0002578",
+              "label": "Gastroparesis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002922",
+              "label": "Increased CSF protein concentration",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003202",
+              "label": "Skeletal muscle atrophy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003477",
+              "label": "Peripheral axonal neuropathy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003581",
+              "label": "Adult onset",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0003676",
+              "label": "Progressive",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0004610",
+              "label": "Lumbar spinal canal stenosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0004926",
+              "label": "Orthostatic hypotension due to autonomic dysfunction",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005110",
+              "label": "Atrial fibrillation",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007141",
+              "label": "Sensorimotor neuropathy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0007256",
+              "label": "Abnormal pyramidal sign",
+              "state": "present",
+              "frequencies": [
+                "2/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0007841",
+              "label": "Amyloid deposition in the vitreous humor",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0008765",
+              "label": "Auditory hallucination",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0009027",
+              "label": "Foot dorsiflexor weakness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0009830",
+              "label": "Peripheral neuropathy",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010544",
+              "label": "Vertical nystagmus",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010550",
+              "label": "Paraplegia",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0010829",
+              "label": "Impaired temperature sensation",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011003",
+              "label": "High myopia",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011034",
+              "label": "Amyloid deposition",
+              "state": "present",
+              "frequencies": [
+                "4/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011468",
+              "label": "Facial tics",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0011675",
+              "label": "Arrhythmia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011970",
+              "label": "Cerebral amyloid angiopathy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012185",
+              "label": "Constrictive median neuropathy",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012332",
+              "label": "Abnormal autonomic nervous system physiology",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012378",
+              "label": "Fatigue",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012531",
+              "label": "Pain",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012664",
+              "label": "Reduced left ventricular ejection fraction",
+              "state": "absent",
+              "frequencies": [
+                "Excluded (0%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012722",
+              "label": "Heart block",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0025077",
+              "label": "Decreased QRS voltage",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0025309",
+              "label": "Abnormal pupil shape",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0031006",
+              "label": "Acroparesthesia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0031185",
+              "label": "Elevated circulating NT-proBNP concentration",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0031189",
+              "label": "Wrist drop",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0031327",
+              "label": "Cardiac transthyretin amyloid deposition",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0032070",
+              "label": "Leptomeningeal enhancement",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0033748",
+              "label": "Hypoesthesia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100550",
+              "label": "Tendon rupture",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100598",
+              "label": "Pulmonary edema",
+              "state": "present",
+              "frequencies": [
+                "1/4"
+              ],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0100832",
+              "label": "Vitreous floaters",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0410174",
+              "label": "Increased circulating troponin T concentration",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ORPHA:397",
+          "label": "Giant cell arteritis",
+          "sources": [
+            "HPO",
+            "Orphadata"
+          ],
+          "phenotypes": [
+            {
+              "id": "HP:0000006",
+              "label": "Autosomal dominant inheritance",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000083",
+              "label": "Renal insufficiency",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000206",
+              "label": "Glossitis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000365",
+              "label": "Hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000405",
+              "label": "Conductive hearing impairment",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000421",
+              "label": "Epistaxis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000505",
+              "label": "Visual impairment",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000508",
+              "label": "Ptosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000572",
+              "label": "Visual loss",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000597",
+              "label": "Ophthalmoparesis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000618",
+              "label": "Blindness",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0000622",
+              "label": "Blurred vision",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000639",
+              "label": "Nystagmus",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000648",
+              "label": "Optic atrophy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000651",
+              "label": "Diplopia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000716",
+              "label": "Depression",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000790",
+              "label": "Hematuria",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000873",
+              "label": "Diabetes insipidus",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0000975",
+              "label": "Hyperhidrosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001123",
+              "label": "Visual field defect",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001251",
+              "label": "Ataxia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001260",
+              "label": "Dysarthria",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001287",
+              "label": "Meningitis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001324",
+              "label": "Muscle weakness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001369",
+              "label": "Arthritis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001387",
+              "label": "Joint stiffness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001399",
+              "label": "Hepatic failure",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001596",
+              "label": "Alopecia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001645",
+              "label": "Sudden cardiac death",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001701",
+              "label": "Pericarditis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001824",
+              "label": "Weight loss",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001872",
+              "label": "Abnormality of thrombocytes",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001903",
+              "label": "Anemia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0001945",
+              "label": "Fever",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002027",
+              "label": "Abdominal pain",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002039",
+              "label": "Anorexia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002103",
+              "label": "Abnormal pleura morphology",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002315",
+              "label": "Headache",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002321",
+              "label": "Vertigo",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002367",
+              "label": "Visual hallucination",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002633",
+              "label": "Vasculitis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002637",
+              "label": "Cerebral ischemia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002647",
+              "label": "Aortic dissection",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0002829",
+              "label": "Arthralgia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003326",
+              "label": "Myalgia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003401",
+              "label": "Paresthesia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0003565",
+              "label": "Elevated erythrocyte sedimentation rate",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0004420",
+              "label": "Arterial thrombosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005112",
+              "label": "Abdominal aortic aneurysm",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005216",
+              "label": "Impaired mastication",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005244",
+              "label": "Gastrointestinal infarctions",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005413",
+              "label": "Elevated circulating alpha-globulin concentration",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0005764",
+              "label": "Polyarticular arthritis",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0008030",
+              "label": "Retinal arteritis",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:0009830",
+              "label": "Peripheral neuropathy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011227",
+              "label": "Elevated circulating C-reactive protein concentration",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011658",
+              "label": "Double outlet right ventricle with subpulmonary ventricular septal defect without pulmonary stenosis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011675",
+              "label": "Arrhythmia",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0011899",
+              "label": "Hyperfibrinogenemia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012378",
+              "label": "Fatigue",
+              "state": "present",
+              "frequencies": [
+                "HP:0040281",
+                "Very frequent (99-80%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0012735",
+              "label": "Cough",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0030164",
+              "label": "Jaw claudication",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0030783",
+              "label": "Increased circulating interleukin 6 concentration",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0030972",
+              "label": "Abnormal systemic blood pressure",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0031246",
+              "label": "Nonproductive cough",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0033123",
+              "label": "Elevated circulating osteopontin concentration",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0033834",
+              "label": "Malaise",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100576",
+              "label": "Amaurosis fugax",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100721",
+              "label": "Mediastinal lymphadenopathy",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100758",
+              "label": "Gangrene",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100776",
+              "label": "Recurrent pharyngitis",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0100809",
+              "label": "Scalp tenderness",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:0200042",
+              "label": "Skin ulcer",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:6000502",
+              "label": "Elevated circulating calprotectin concentration",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:6000618",
+              "label": "Temporal artery giant cells",
+              "state": "present",
+              "frequencies": [],
+              "sources": [
+                "HPO"
+              ]
+            },
+            {
+              "id": "HP:6000786",
+              "label": "Absent superficial temporal artery pulse",
+              "state": "present",
+              "frequencies": [
+                "HP:0040283",
+                "Occasional (29-5%)"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            },
+            {
+              "id": "HP:6000944",
+              "label": "Carotidynia",
+              "state": "present",
+              "frequencies": [
+                "Frequent (79-30%)",
+                "HP:0040282"
+              ],
+              "sources": [
+                "HPO",
+                "Orphadata"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

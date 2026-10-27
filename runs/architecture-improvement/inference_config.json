@@ -1,0 +1,74 @@
+{
+  "default_method": "hybrid",
+  "best_baseline": "overlap",
+  "hybrid": {
+    "baseline": "overlap",
+    "weight": 0.01,
+    "validation_mrr": 0.9114359384019469,
+    "grid": [
+      {
+        "baseline": "overlap",
+        "weight": 0.0,
+        "mrr": 0.8421945792101292
+      },
+      {
+        "baseline": "overlap",
+        "weight": 0.01,
+        "mrr": 0.9114359384019469
+      },
+      {
+        "baseline": "overlap",
+        "weight": 0.03,
+        "mrr": 0.9114359271916694
+      },
+      {
+        "baseline": "overlap",
+        "weight": 0.1,
+        "mrr": 0.9109974083632206
+      },
+      {
+        "baseline": "overlap",
+        "weight": 0.3,
+        "mrr": 0.8986319630812638
+      },
+      {
+        "baseline": "overlap",
+        "weight": 1.0,
+        "mrr": 0.8698239038212774
+      },
+      {
+        "baseline": "weighted",
+        "weight": 0.0,
+        "mrr": 0.8421945792101292
+      },
+      {
+        "baseline": "weighted",
+        "weight": 0.01,
+        "mrr": 0.9114359384019469
+      },
+      {
+        "baseline": "weighted",
+        "weight": 0.03,
+        "mrr": 0.9114359271916694
+      },
+      {
+        "baseline": "weighted",
+        "weight": 0.1,
+        "mrr": 0.9106868788737594
+      },
+      {
+        "baseline": "weighted",
+        "weight": 0.3,
+        "mrr": 0.8996167202940716
+      },
+      {
+        "baseline": "weighted",
+        "weight": 1.0,
+        "mrr": 0.8709062432962541
+      }
+    ]
+  },
+  "selected_seed": 44,
+  "best_epoch": 8,
+  "selection": "Validation only; >=.001 MRR gain required to replace baseline"
+}

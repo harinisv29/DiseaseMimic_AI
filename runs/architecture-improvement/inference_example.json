@@ -1,0 +1,104 @@
+{
+  "target_disease": "DECIPHER:14",
+  "method": "hybrid",
+  "device": "cuda:0",
+  "rankings": [
+    {
+      "disease_id": "OMIM:600624",
+      "score": 1.0398080348968506,
+      "best_tied_rank": 1,
+      "worst_tied_rank": 1
+    },
+    {
+      "disease_id": "OMIM:220900",
+      "score": 1.0338679552078247,
+      "best_tied_rank": 2,
+      "worst_tied_rank": 2
+    },
+    {
+      "disease_id": "DECIPHER:14",
+      "score": 1.0320405960083008,
+      "best_tied_rank": 3,
+      "worst_tied_rank": 4
+    },
+    {
+      "disease_id": "DECIPHER:53",
+      "score": 1.0320405960083008,
+      "best_tied_rank": 3,
+      "worst_tied_rank": 4
+    },
+    {
+      "disease_id": "ORPHA:559",
+      "score": 1.0299255847930908,
+      "best_tied_rank": 5,
+      "worst_tied_rank": 5
+    },
+    {
+      "disease_id": "ORPHA:281090",
+      "score": 1.0292714834213257,
+      "best_tied_rank": 6,
+      "worst_tied_rank": 6
+    },
+    {
+      "disease_id": "ORPHA:85323",
+      "score": 1.0260987281799316,
+      "best_tied_rank": 7,
+      "worst_tied_rank": 7
+    },
+    {
+      "disease_id": "ORPHA:2316",
+      "score": 1.0247395038604736,
+      "best_tied_rank": 8,
+      "worst_tied_rank": 8
+    },
+    {
+      "disease_id": "ORPHA:726036",
+      "score": 1.024308681488037,
+      "best_tied_rank": 9,
+      "worst_tied_rank": 9
+    },
+    {
+      "disease_id": "ORPHA:363741",
+      "score": 1.0242397785186768,
+      "best_tied_rank": 10,
+      "worst_tied_rank": 10
+    }
+  ],
+  "next_observations": [
+    {
+      "phenotype_id": "HP:0001252",
+      "expected_information_gain_nats": 0.04544854164123535,
+      "predictive_present_probability": 0.5774043798446655,
+      "reassessment": true,
+      "availability": "permitted",
+      "note": "Simulation model; unrecorded candidate annotations remain unknown"
+    },
+    {
+      "phenotype_id": "HP:0001956",
+      "expected_information_gain_nats": 0.01732027530670166,
+      "predictive_present_probability": 0.5388875007629395,
+      "reassessment": false,
+      "availability": "permitted",
+      "note": "Simulation model; unrecorded candidate annotations remain unknown"
+    },
+    {
+      "phenotype_id": "HP:0008872",
+      "expected_information_gain_nats": 0.012501001358032227,
+      "predictive_present_probability": 0.5265960693359375,
+      "reassessment": false,
+      "availability": "permitted",
+      "note": "Simulation model; unrecorded candidate annotations remain unknown"
+    }
+  ],
+  "observations": {
+    "present": [
+      "HP:0000135",
+      "HP:0001249"
+    ],
+    "absent": [],
+    "unknown": [
+      "HP:0001252"
+    ]
+  },
+  "note": "Exploratory known-profile research ranking; score is not probability. Unrecorded phenotypes remain unknown. Rankings use present observations; known absent states exclude completed observations from recommendations, while unknown states remain eligible for reassessment."
+}

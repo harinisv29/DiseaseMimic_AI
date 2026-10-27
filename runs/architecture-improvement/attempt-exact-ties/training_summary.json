@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    {
+      "seed": 42,
+      "epochs": 22,
+      "best_epoch": 7,
+      "validation_objective": 0.8091297348340353,
+      "training_seconds": 32.757265899999766
+    },
+    {
+      "seed": 43,
+      "epochs": 22,
+      "best_epoch": 7,
+      "validation_objective": 0.8044953346252441,
+      "training_seconds": 31.836741399994935
+    },
+    {
+      "seed": 44,
+      "epochs": 25,
+      "best_epoch": 10,
+      "validation_objective": 0.8150498867034912,
+      "training_seconds": 36.75345610000659
+    }
+  ],
+  "selected": {
+    "seed": 44,
+    "epochs": 25,
+    "best_epoch": 10,
+    "validation_objective": 0.8150498867034912,
+    "training_seconds": 36.75345610000659
+  },
+  "total_training_seconds": 101.34746340000129,
+  "peak_gpu_bytes": 230647296
+}

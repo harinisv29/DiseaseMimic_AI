@@ -1,0 +1,7 @@
+{
+  "seed": 44,
+  "epochs": 23,
+  "best_epoch": 8,
+  "validation_objective": 0.8150171041488647,
+  "training_seconds": 34.918199699997786
+}

@@ -1,0 +1,39 @@
+{
+  "device": "cpu",
+  "seed": 42,
+  "history": [
+    {
+      "epoch": 1,
+      "ranking_loss": 1.3133341073989868,
+      "profiles": 8464
+    },
+    {
+      "epoch": 2,
+      "ranking_loss": 1.3122751712799072,
+      "profiles": 8464
+    },
+    {
+      "epoch": 3,
+      "ranking_loss": 1.3103866577148438,
+      "profiles": 8464
+    },
+    {
+      "epoch": 4,
+      "ranking_loss": 1.3084112405776978,
+      "profiles": 8464
+    },
+    {
+      "epoch": 5,
+      "ranking_loss": 1.3092916011810303,
+      "profiles": 8464
+    }
+  ],
+  "training_diseases": 8464,
+  "validation": "Dataset validation passed before optimization; clinical efficacy not evaluated.",
+  "limitations": [
+    "Short optimization run is not evidence of useful disease ranking.",
+    "Profiles are masked source annotations, not independent patient records.",
+    "Contrastive mismatches are not clinically established excluded diagnoses.",
+    "Held-out diseases have no trained identity embedding; zero-shot ranking is not established."
+  ]
+}

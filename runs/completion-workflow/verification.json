@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:5173",
+  "web_status": 200,
+  "backend_health": {
+    "status": "ready",
+    "device": "cuda:0",
+    "method": "hybrid",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "browser_tests": {
+    "startTime": "2026-10-26T16:44:41.826Z",
+    "duration": 41382.263,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "backend_tests": {
+    "exit_code": 0,
+    "collected": 20,
+    "passed": 20,
+    "failed": 0,
+    "errors": 0
+  },
+  "production_build": "passed",
+  "typescript": "passed",
+  "dependency_audit_vulnerabilities": 0,
+  "default_answered_question_limit": 5,
+  "configurable_limit": "Follow-up preferences or VITE_FOLLOWUP_LIMIT (1..20)",
+  "patient_scope_source_verified": true,
+  "patient_scope_count": 30,
+  "validated_positive_information_gain_threshold": null,
+  "pdf_download_and_parsed_contents_verified": true,
+  "finish_without_extra_prediction_verified": true,
+  "finish_dirty_observations_one_prediction_verified": true,
+  "five_answers_auto_complete_verified": true,
+  "unknown_not_absent_verified": true,
+  "session_wide_question_exclusions": true,
+  "checkpoints_unchanged": {
+    "models\\hgnn_ebm.pt": true,
+    "runs\\final-gpu-training\\best_model.pt": true,
+    "runs\\final-gpu-training\\last_model.pt": true,
+    "runs/architecture-improvement/best_model.pt": true
+  },
+  "processed_datasets_unchanged": {
+    "diseases.csv": true,
+    "disease_cross_references.csv": true,
+    "disease_phenotype.csv": true,
+    "hypergraph_data.pt": true,
+    "ontology_terms.csv": true,
+    "phenotypes.csv": true,
+    "source_annotations.csv": true,
+    "unmatched_phenotypes.csv": true
+  },
+  "raw_datasets_unchanged": {
+    "HPO ontology": true,
+    "HPO annotations": true,
+    "Orphadata phenotypes": true,
+    "Orphadata alignments": true
+  },
+  "model_or_backend_ranking_changed": false
+}

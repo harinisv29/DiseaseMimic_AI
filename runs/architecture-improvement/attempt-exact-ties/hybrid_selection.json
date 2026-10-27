@@ -1,0 +1,67 @@
+{
+  "baseline": "weighted",
+  "weight": 0.01,
+  "validation_mrr": 0.9116883442043557,
+  "grid": [
+    {
+      "baseline": "overlap",
+      "weight": 0.0,
+      "mrr": 0.8421945792101292
+    },
+    {
+      "baseline": "overlap",
+      "weight": 0.01,
+      "mrr": 0.9115250825281408
+    },
+    {
+      "baseline": "overlap",
+      "weight": 0.03,
+      "mrr": 0.9115250825281408
+    },
+    {
+      "baseline": "overlap",
+      "weight": 0.1,
+      "mrr": 0.9114178338038831
+    },
+    {
+      "baseline": "overlap",
+      "weight": 0.3,
+      "mrr": 0.9002229480759423
+    },
+    {
+      "baseline": "overlap",
+      "weight": 1.0,
+      "mrr": 0.8690034876742551
+    },
+    {
+      "baseline": "weighted",
+      "weight": 0.0,
+      "mrr": 0.8437797004289731
+    },
+    {
+      "baseline": "weighted",
+      "weight": 0.01,
+      "mrr": 0.9116883442043557
+    },
+    {
+      "baseline": "weighted",
+      "weight": 0.03,
+      "mrr": 0.9116883442043557
+    },
+    {
+      "baseline": "weighted",
+      "weight": 0.1,
+      "mrr": 0.9113145487134342
+    },
+    {
+      "baseline": "weighted",
+      "weight": 0.3,
+      "mrr": 0.8996477567478952
+    },
+    {
+      "baseline": "weighted",
+      "weight": 1.0,
+      "mrr": 0.8691025320768957
+    }
+  ]
+}

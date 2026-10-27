@@ -1,0 +1,9 @@
+{
+  "cuda_parameters": true,
+  "cuda_forward_backward": true,
+  "finite_gradients": true,
+  "best_checkpoint_reload": true,
+  "train_test_disjoint": true,
+  "real_phenotype_ranking": true,
+  "cpu_fallback": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checkpoint": "runs/final-gpu-training/best_model.pt",
+  "device": "cuda:0",
+  "trained_epochs": 36,
+  "parameters": 1479265,
+  "data_fingerprint_matches": true,
+  "actual_phenotype_id": "HP:0000002",
+  "actual_disease_id": "OMIM:616977",
+  "finite_energy": 0.8155062794685364,
+  "note": "Reload/forward verification only; energy is not probability or clinical validation."
+}

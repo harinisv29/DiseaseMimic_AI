@@ -1,0 +1,98 @@
+[
+  {
+    "path": "models\\hgnn_ebm.pt",
+    "expected": "0eceea25c60ad5a7ecee78d55cf4ca79a8e056e71ba91c387aa08cdf86f1e92b",
+    "actual": "0eceea25c60ad5a7ecee78d55cf4ca79a8e056e71ba91c387aa08cdf86f1e92b",
+    "unchanged": true
+  },
+  {
+    "path": "runs\\final-gpu-training\\best_model.pt",
+    "expected": "62c24ec0696b80a546f302ada381146b83b71f3456ce5490977088429ca2d0b1",
+    "actual": "62c24ec0696b80a546f302ada381146b83b71f3456ce5490977088429ca2d0b1",
+    "unchanged": true
+  },
+  {
+    "path": "runs\\final-gpu-training\\last_model.pt",
+    "expected": "19c69e7349053d7b72d20afd2af3df127455d7f543556b408e1e1fb409af15a0",
+    "actual": "19c69e7349053d7b72d20afd2af3df127455d7f543556b408e1e1fb409af15a0",
+    "unchanged": true
+  },
+  {
+    "path": "runs\\architecture-improvement\\best_model.pt",
+    "expected": "67c058c75f1e43c5e7caf45e55ba31c70aa20a79ccc604f46c52fe94f533ffd1",
+    "actual": "67c058c75f1e43c5e7caf45e55ba31c70aa20a79ccc604f46c52fe94f533ffd1",
+    "unchanged": true
+  },
+  {
+    "path": "data\\raw\\hpo\\hp.obo",
+    "expected": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+    "actual": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+    "unchanged": true
+  },
+  {
+    "path": "data\\raw\\hpo\\phenotype.hpoa",
+    "expected": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+    "actual": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+    "unchanged": true
+  },
+  {
+    "path": "data\\raw\\orphadata\\en_product4.xml",
+    "expected": "4f44e8a61201399911aa1ba44a293c0ccaa5ce11272c47d40862255cb72f6b32",
+    "actual": "4f44e8a61201399911aa1ba44a293c0ccaa5ce11272c47d40862255cb72f6b32",
+    "unchanged": true
+  },
+  {
+    "path": "data\\raw\\orphadata\\en_product1.xml",
+    "expected": "df8d562a0c6011af36a74eb4000ce81ca7d723e8031010819fb71727c0962bbb",
+    "actual": "df8d562a0c6011af36a74eb4000ce81ca7d723e8031010819fb71727c0962bbb",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\diseases.csv",
+    "expected": "f086f16a7eca45482db437c1cd63f360616bd77fbafc32f7559dd8358ff9efe1",
+    "actual": "f086f16a7eca45482db437c1cd63f360616bd77fbafc32f7559dd8358ff9efe1",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\disease_cross_references.csv",
+    "expected": "7202f676dd7ea4b0705fb7aef65d97b516beef845be5835b92f87759ee21ae29",
+    "actual": "7202f676dd7ea4b0705fb7aef65d97b516beef845be5835b92f87759ee21ae29",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\disease_phenotype.csv",
+    "expected": "5fb1a79305f122843b134e668dd37bcb68655de396429de42b4a496c6baf1d58",
+    "actual": "5fb1a79305f122843b134e668dd37bcb68655de396429de42b4a496c6baf1d58",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\hypergraph_data.pt",
+    "expected": "39ff566cac93d971de0e2dd7f445a0a399f3b801c29197226d81e549f0fe4032",
+    "actual": "39ff566cac93d971de0e2dd7f445a0a399f3b801c29197226d81e549f0fe4032",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\ontology_terms.csv",
+    "expected": "ed4f25a5c0a64bb1a0f75376396042072a45192918eea873de3e977c4b84010b",
+    "actual": "ed4f25a5c0a64bb1a0f75376396042072a45192918eea873de3e977c4b84010b",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\phenotypes.csv",
+    "expected": "161f3518e72d2e221a6c4b502f141ad49ceabb07282b19ce11d0ebca637d3029",
+    "actual": "161f3518e72d2e221a6c4b502f141ad49ceabb07282b19ce11d0ebca637d3029",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\source_annotations.csv",
+    "expected": "d952069ebe80c7c351cfb8b6569f3ee84d7a2bf28dcf0fbc8eeab2ea5c82ae04",
+    "actual": "d952069ebe80c7c351cfb8b6569f3ee84d7a2bf28dcf0fbc8eeab2ea5c82ae04",
+    "unchanged": true
+  },
+  {
+    "path": "data\\processed\\unmatched_phenotypes.csv",
+    "expected": "0f24af5d7ab07e613b3ad1e19b4f36bd03e09503ca21eefdba98a35bbe0d8484",
+    "actual": "0f24af5d7ab07e613b3ad1e19b4f36bd03e09503ca21eefdba98a35bbe0d8484",
+    "unchanged": true
+  }
+]

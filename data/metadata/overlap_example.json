@@ -1,0 +1,356 @@
+﻿{
+  "mode": "real-data overlap baseline",
+  "results": [
+    {
+      "disease_id": "DECIPHER:1",
+      "name": "Wolf-Hirschhorn syndrome",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:1",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:1\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:1\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:1\\\", \\\"disease_name\\\": \\\"Wolf-Hirschhorn syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:1\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:1",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:1\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:1\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:1\\\", \\\"disease_name\\\": \\\"Wolf-Hirschhorn syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:1\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "DECIPHER:18",
+      "name": "1p36 microdeletion syndrome",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:18",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:18\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:18\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:18\\\", \\\"disease_name\\\": \\\"1p36 microdeletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:18\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:18",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:18\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:18\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:18\\\", \\\"disease_name\\\": \\\"1p36 microdeletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:18\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "DECIPHER:4",
+      "name": "Angelman syndrome (Type 1)",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:4",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:4\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:4\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:4\\\", \\\"disease_name\\\": \\\"Angelman syndrome (Type 1)\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:4\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:4",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:4\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:4\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:4\\\", \\\"disease_name\\\": \\\"Angelman syndrome (Type 1)\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:4\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "DECIPHER:51",
+      "name": "2q33.1 deletion syndrome",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:51",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:51\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:51\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:51\\\", \\\"disease_name\\\": \\\"2q33.1 deletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:51\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "validation"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:51",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:51\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:51\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:51\\\", \\\"disease_name\\\": \\\"2q33.1 deletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:51\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "validation"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "DECIPHER:54",
+      "name": "Angelman syndrome (Type 2)",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:54",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:54\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:54\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:54\\\", \\\"disease_name\\\": \\\"Angelman syndrome (Type 2)\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:54\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:54",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:54\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:54\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:54\\\", \\\"disease_name\\\": \\\"Angelman syndrome (Type 2)\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:54\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "DECIPHER:74",
+      "name": "15q13.3 microdeletion syndrome",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "DECIPHER:74",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:74\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:74\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:74\\\", \\\"disease_name\\\": \\\"15q13.3 microdeletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:74\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "DECIPHER:74",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"DECIPHER:74\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"DECIPHER:74\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2013-05-29]\\\", \\\"database_id\\\": \\\"DECIPHER:74\\\", \\\"disease_name\\\": \\\"15q13.3 microdeletion syndrome\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"DECIPHER:74\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "OMIM:117550",
+      "name": "Sotos syndrome",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "OMIM:117550",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"2/3\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:117550\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:117550\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"2/3\", \"frequency_lower\": 0.6666666666666666, \"frequency_upper\": 0.6666666666666666, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"ORCID:0000-0002-0736-9199[2026-06-20];HPO:skoehler[2013-06-16];HPO:probinson[2022-06-25]\\\", \\\"database_id\\\": \\\"OMIM:117550\\\", \\\"disease_name\\\": \\\"Sotos syndrome\\\", \\\"evidence\\\": \\\"PCS\\\", \\\"frequency\\\": \\\"2/3\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"PMID:29142766;PMID:22012791\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "OMIM:117550",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"13/19\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:117550\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:117550\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"13/19\", \"frequency_lower\": 0.6842105263157895, \"frequency_upper\": 0.6842105263157895, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17];HPO:probinson[2022-06-25];ORCID:0000-0002-0736-9199[2026-06-20]\\\", \\\"database_id\\\": \\\"OMIM:117550\\\", \\\"disease_name\\\": \\\"Sotos syndrome\\\", \\\"evidence\\\": \\\"PCS\\\", \\\"frequency\\\": \\\"13/19\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"PMID:15942875;PMID:22012791;PMID:29164086\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "OMIM:124000",
+      "name": "Mitochondrial complex III deficiency, nuclear type 1",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "OMIM:124000",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:124000\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:124000\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:skoehler[2010-06-18]\\\", \\\"database_id\\\": \\\"OMIM:124000\\\", \\\"disease_name\\\": \\\"Mitochondrial complex III deficiency, nuclear type 1\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:124000\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "OMIM:124000",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:124000\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:124000\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17]\\\", \\\"database_id\\\": \\\"OMIM:124000\\\", \\\"disease_name\\\": \\\"Mitochondrial complex III deficiency, nuclear type 1\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:124000\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "OMIM:125800",
+      "name": "Diabetes insipidus, nephrogenic, 2",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "OMIM:125800",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:125800\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:125800\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17]\\\", \\\"database_id\\\": \\\"OMIM:125800\\\", \\\"disease_name\\\": \\\"Diabetes insipidus, nephrogenic, 2\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:125800\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "OMIM:125800",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:125800\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:125800\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17]\\\", \\\"database_id\\\": \\\"OMIM:125800\\\", \\\"disease_name\\\": \\\"Diabetes insipidus, nephrogenic, 2\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:125800\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "train"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    },
+    {
+      "disease_id": "OMIM:133540",
+      "name": "Cockayne syndrome, type B",
+      "matching_phenotypes": [
+        "HP:0001249",
+        "HP:0001250"
+      ],
+      "conflicting_phenotypes": [],
+      "overlap_fraction": 1.0,
+      "evidence": [
+        {
+          "present": {
+            "disease_id": "OMIM:133540",
+            "phenotype_id": "HP:0001249",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:133540\", \"phenotype_id\": \"HP:0001249\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:133540\", \"original_phenotype_id\": \"HP:0001249\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17]\\\", \\\"database_id\\\": \\\"OMIM:133540\\\", \\\"disease_name\\\": \\\"Cockayne syndrome, type B\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001249\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:133540\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "validation"
+          }
+        },
+        {
+          "present": {
+            "disease_id": "OMIM:133540",
+            "phenotype_id": "HP:0001250",
+            "state": "present",
+            "sources": "[\"HPO\"]",
+            "frequencies": "[\"\"]",
+            "evidence": "[{\"disease_id\": \"OMIM:133540\", \"phenotype_id\": \"HP:0001250\", \"state\": \"present\", \"source\": \"HPO\", \"original_disease_id\": \"OMIM:133540\", \"original_phenotype_id\": \"HP:0001250\", \"frequency\": \"\", \"frequency_lower\": null, \"frequency_upper\": null, \"metadata\": \"{\\\"aspect\\\": \\\"P\\\", \\\"biocuration\\\": \\\"HPO:iea[2009-02-17]\\\", \\\"database_id\\\": \\\"OMIM:133540\\\", \\\"disease_name\\\": \\\"Cockayne syndrome, type B\\\", \\\"evidence\\\": \\\"IEA\\\", \\\"frequency\\\": \\\"\\\", \\\"hpo_id\\\": \\\"HP:0001250\\\", \\\"modifier\\\": \\\"\\\", \\\"onset\\\": \\\"\\\", \\\"qualifier\\\": \\\"\\\", \\\"reference\\\": \\\"OMIM:133540\\\", \\\"sex\\\": \\\"\\\"}\"}]",
+            "split": "validation"
+          }
+        }
+      ],
+      "knowledge_state": "unlisted phenotypes unknown"
+    }
+  ],
+  "notice": "Overlap is not disease probability or a trained compatibility score."
+}

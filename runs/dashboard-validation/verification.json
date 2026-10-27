@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "frontend_url": "http://127.0.0.1:5173",
+  "frontend_http_status": 200,
+  "health": {
+    "status": "ready",
+    "device": "cuda:0",
+    "method": "hybrid",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "browser_test_stats": {
+    "startTime": "2026-10-26T13:10:10.331Z",
+    "duration": 16303.020999999999,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "backend_tests": {
+    "exit_code": 0,
+    "collected": 20,
+    "passed": 20,
+    "failed": 0,
+    "errors": 0
+  },
+  "typescript_check": "passed",
+  "production_build": "passed",
+  "dependency_audit_vulnerabilities": 0,
+  "checkpoints_unchanged": {
+    "models\\hgnn_ebm.pt": true,
+    "runs\\final-gpu-training\\best_model.pt": true,
+    "runs\\final-gpu-training\\last_model.pt": true,
+    "runs/architecture-improvement/best_model.pt": true
+  },
+  "processed_datasets_unchanged": {
+    "diseases.csv": true,
+    "disease_cross_references.csv": true,
+    "disease_phenotype.csv": true,
+    "hypergraph_data.pt": true,
+    "ontology_terms.csv": true,
+    "phenotypes.csv": true,
+    "source_annotations.csv": true,
+    "unmatched_phenotypes.csv": true
+  },
+  "backend_model_files_modified": false,
+  "live_inference_verified": true,
+  "positive_and_absent_recommendation_updates_verified": true,
+  "limitations": [
+    "Rankings use present findings only; absent findings suppress repeat recommendations and unknown findings remain unresolved.",
+    "Session history is in browser memory and resets on reload.",
+    "Research compatibility scores are not diagnostic probabilities; score bars are relative to the returned set.",
+    "The clinical usefulness of ranking and observation recommendations is not established."
+  ]
+}

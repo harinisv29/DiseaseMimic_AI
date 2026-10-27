@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "tests": {
+    "exit_code": 0,
+    "collected": 20,
+    "passed": 20,
+    "failed": 0,
+    "errors": 0
+  },
+  "checkpoint": "runs/architecture-improvement/best_model.pt",
+  "checkpoint_sha256": "67c058c75f1e43c5e7caf45e55ba31c70aa20a79ccc604f46c52fe94f533ffd1",
+  "cuda_parameters_and_backward_test_passed": true,
+  "finite_loss_and_gradients_test_passed": true,
+  "identifier_mapping_test_passed": true,
+  "profile_withholding_and_graph_isolation_tests_passed": true,
+  "numerical_tie_test_passed": true,
+  "inference_api_test_passed": true,
+  "original_checkpoints_unchanged": true,
+  "exploratory_evaluation": true
+}

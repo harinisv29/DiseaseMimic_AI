@@ -1,0 +1,19 @@
+{
+  "actual_disease": "DECIPHER:14",
+  "observed_phenotypes": [
+    "HP:0000135",
+    "HP:0001249"
+  ],
+  "rankings": [
+    "ORPHA:3387",
+    "OMIM:600263",
+    "OMIM:614278",
+    "ORPHA:163699",
+    "OMIM:125530",
+    "OMIM:126500",
+    "ORPHA:1485",
+    "OMIM:145100",
+    "OMIM:234820",
+    "OMIM:613825"
+  ]
+}

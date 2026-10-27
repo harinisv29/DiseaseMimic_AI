@@ -1,0 +1,27 @@
+{
+  "build": "passed",
+  "backend": {
+    "exit_code": 0,
+    "collected": 24,
+    "passed": 24,
+    "failed": 0,
+    "errors": 0
+  },
+  "browser": {
+    "startTime": "2026-10-26T18:10:44.399Z",
+    "duration": 70318.955,
+    "expected": 36,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "health": {
+    "status": "ready",
+    "device": "cuda:0",
+    "method": "hybrid",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "preserved_files": 16,
+  "clinical_review_completed": false,
+  "usability_study_completed": false
+}

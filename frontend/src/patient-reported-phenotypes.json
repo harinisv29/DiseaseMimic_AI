@@ -1,0 +1,183 @@
+{
+  "HP:0000217": {
+    "label": "Xerostomia",
+    "matchedTerms": [
+      "dry mouth"
+    ]
+  },
+  "HP:0000360": {
+    "label": "Tinnitus",
+    "matchedTerms": [
+      "tinnitus"
+    ]
+  },
+  "HP:0000365": {
+    "label": "Hearing impairment",
+    "matchedTerms": [
+      "hearing impairment"
+    ]
+  },
+  "HP:0000613": {
+    "label": "Photophobia",
+    "matchedTerms": [
+      "photophobia"
+    ]
+  },
+  "HP:0000622": {
+    "label": "Blurred vision",
+    "matchedTerms": [
+      "blurred vision"
+    ]
+  },
+  "HP:0000958": {
+    "label": "Dry skin",
+    "matchedTerms": [
+      "dry skin"
+    ]
+  },
+  "HP:0000975": {
+    "label": "Hyperhidrosis",
+    "matchedTerms": [
+      "excessive sweating"
+    ]
+  },
+  "HP:0000988": {
+    "label": "Skin rash",
+    "matchedTerms": [
+      "skin rash"
+    ]
+  },
+  "HP:0000989": {
+    "label": "Pruritus",
+    "matchedTerms": [
+      "pruritus"
+    ]
+  },
+  "HP:0001324": {
+    "label": "Muscle weakness",
+    "matchedTerms": [
+      "muscle weakness"
+    ]
+  },
+  "HP:0001337": {
+    "label": "Tremor",
+    "matchedTerms": [
+      "tremor"
+    ]
+  },
+  "HP:0001824": {
+    "label": "Weight loss",
+    "matchedTerms": [
+      "weight loss"
+    ]
+  },
+  "HP:0001945": {
+    "label": "Fever",
+    "matchedTerms": [
+      "fever"
+    ]
+  },
+  "HP:0001962": {
+    "label": "Palpitations",
+    "matchedTerms": [
+      "palpitations"
+    ]
+  },
+  "HP:0002013": {
+    "label": "Vomiting",
+    "matchedTerms": [
+      "vomiting"
+    ]
+  },
+  "HP:0002014": {
+    "label": "Diarrhea",
+    "matchedTerms": [
+      "diarrhea"
+    ]
+  },
+  "HP:0002018": {
+    "label": "Nausea",
+    "matchedTerms": [
+      "nausea"
+    ]
+  },
+  "HP:0002019": {
+    "label": "Constipation",
+    "matchedTerms": [
+      "constipation"
+    ]
+  },
+  "HP:0002027": {
+    "label": "Abdominal pain",
+    "matchedTerms": [
+      "abdominal pain"
+    ]
+  },
+  "HP:0002094": {
+    "label": "Dyspnea",
+    "matchedTerms": [
+      "shortness of breath"
+    ]
+  },
+  "HP:0002315": {
+    "label": "Headache",
+    "matchedTerms": [
+      "headache"
+    ]
+  },
+  "HP:0002321": {
+    "label": "Vertigo",
+    "matchedTerms": [
+      "dizziness"
+    ]
+  },
+  "HP:0002360": {
+    "label": "Sleep disturbance",
+    "matchedTerms": [
+      "sleep disturbance"
+    ]
+  },
+  "HP:0002829": {
+    "label": "Arthralgia",
+    "matchedTerms": [
+      "arthralgia",
+      "joint pain"
+    ]
+  },
+  "HP:0003326": {
+    "label": "Myalgia",
+    "matchedTerms": [
+      "myalgia"
+    ]
+  },
+  "HP:0003418": {
+    "label": "Back pain",
+    "matchedTerms": [
+      "back pain"
+    ]
+  },
+  "HP:0004396": {
+    "label": "Poor appetite",
+    "matchedTerms": [
+      "loss of appetite"
+    ]
+  },
+  "HP:0012378": {
+    "label": "Fatigue",
+    "matchedTerms": [
+      "fatigue"
+    ]
+  },
+  "HP:0012735": {
+    "label": "Cough",
+    "matchedTerms": [
+      "cough"
+    ]
+  },
+  "HP:0100749": {
+    "label": "Chest pain",
+    "matchedTerms": [
+      "chest pain"
+    ]
+  }
+}

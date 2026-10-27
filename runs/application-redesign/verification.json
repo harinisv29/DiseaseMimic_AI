@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "application": "http://127.0.0.1:5173",
+  "health": {
+    "status": "ready",
+    "device": "cuda:0",
+    "method": "hybrid",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "browser_tests": {
+    "startTime": "2026-10-26T13:39:38.746Z",
+    "duration": 19115.297,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "backend_tests": {
+    "exit_code": 0,
+    "collected": 20,
+    "passed": 20,
+    "failed": 0,
+    "errors": 0
+  },
+  "typescript": "passed",
+  "production_build": "passed",
+  "checkpoints_unchanged": {
+    "models\\hgnn_ebm.pt": true,
+    "runs\\final-gpu-training\\best_model.pt": true,
+    "runs\\final-gpu-training\\last_model.pt": true,
+    "runs/architecture-improvement/best_model.pt": true
+  },
+  "processed_datasets_unchanged": {
+    "diseases.csv": true,
+    "disease_cross_references.csv": true,
+    "disease_phenotype.csv": true,
+    "hypergraph_data.pt": true,
+    "ontology_terms.csv": true,
+    "phenotypes.csv": true,
+    "source_annotations.csv": true,
+    "unmatched_phenotypes.csv": true
+  },
+  "inference_behavior_modified": false,
+  "read_only_extension": "Authoritative HPO synonyms returned by phenotype search.",
+  "verified_features": [
+    "Immediate symptom entry",
+    "Keyboard HPO autocomplete and real synonym labels",
+    "Multi-state observations",
+    "Actual CUDA rankings",
+    "Condition details drawer",
+    "Automatic present/absent/unknown follow-up submissions",
+    "Answered-question suppression including unknown",
+    "History restoration and branching",
+    "Confirmed new analysis reset",
+    "Responsive mobile layout",
+    "Panel resize/collapse",
+    "Failure/timeout/empty/missing-field states"
+  ]
+}
